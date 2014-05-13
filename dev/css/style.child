@@ -1,0 +1,12 @@
+/*
+Theme Name: slate-0.1.2_abt
+Theme URI: https://github.com/dr-potato/abt
+Description: a clean slate - abt child theme
+Version: 0.1.2
+Author: Ismay
+Author URI: http://www.lokaalgevonden.nl
+Tags: slate
+Template: slate-0.1.2
+*/
+
+@import url('../slate-0.1.2/style.css');

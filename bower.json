@@ -1,22 +1,20 @@
 {
-  "name": "Slate",
-  "version": "0.1.2",
-  "authors": [
-    "Ismay <ismay@lokaalgevonden.nl>"
-  ],
-  "description": "Bower dependencies for the Slate theme",
-  "keywords": [
-    "Slate"
-  ],
-  "license": "MIT",
-  "private": true,
-  "dependencies": {
-    "jquery": "~2.1.0",
-    "bourbon": "~3.1.8",
-    "neat": "~1.6.0",
-    "modularized-normalize-scss": "~3.0.0"
-  },
-  "devDependencies": {
-    "modernizr": "~2.7.2"
-  }
+	"name": "abt",
+	"version": "0.1.2",
+	"authors": "Ismay <ismay@lokaalgevonden.nl>",
+	"description": "Bower dependencies for the Slate theme",
+	"keywords": [
+		"Slate"
+	],
+	"license": "MIT",
+	"private": true,
+	"dependencies": {
+		"jquery": "~2.1.0",
+		"bourbon": "~3.1.8",
+		"neat": "~1.6.0",
+		"modularized-normalize-scss": "~3.0.0"
+	},
+	"devDependencies": {
+		"modernizr": "~2.7.2"
+	}
 }
