@@ -9,7 +9,8 @@
   display: inline-block;
   font-weight: bold;
   padding: rem(10px) rem(5px);
-  &:hover {
+  &:hover,
+  &:focus {
     text-decoration: none;
   }
 }
@@ -27,8 +28,9 @@
 // ----- Default ----- //
 
 .Button--default {
-  color: $c-white;
-  fill: $c-white;
+  color: $c-orange;
+  fill: $c-orange;
+  background: $c-white;
 }
 
 // ----- Brand ----- //
@@ -36,7 +38,23 @@
 .Button--brand {
   color: $c-white;
   fill: $c-white;
-  background: $c-blue;
+  background: $c-orange;
+  transition: background 0.3s ease;
+  &:hover,
+  &:focus {
+    background: lighten( $c-orange, 15% );
+  }
+}
+
+.Button--transparent {
+  color: $c-white;
+  fill: $c-white;
+  background: rgba(255,255,255,0);
+  transition: background 0.3s ease;
+  &:hover,
+  &:focus {
+    background: rgba(255,255,255,0.3);
+  }
 }
 
 // -------------------------------------

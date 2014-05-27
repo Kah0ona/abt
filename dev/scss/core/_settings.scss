@@ -21,6 +21,8 @@
 $c-black : #1B1C17;
 $c-blue  : #0070AF;
 $c-white : #EFEFEF;
+$c-white : white; // temporary
+$c-orange: #F1592A;
 
 // ----- Layout ----- //
 $l-whiteSpace: 0.5rem;
@@ -37,3 +39,8 @@ $t-fontFamily       : 'Open Sans', $helvetica;
 $t-headerFontFamily : 'Open Sans', $helvetica;
 $t-fontSize         : 16px;
 $t-lineHeight       : 1.5;
+
+// ----- Z-indexes ----- //
+
+$z-headerColorOverlay: 1000;
+$z-headerAboveColorOverlay: 2000;

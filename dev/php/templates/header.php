@@ -36,5 +36,51 @@
   </head>
   <body <?php body_class(); ?> >
 
-    <!-- Main navigation -->
-    <?php include 'includes/navigation.php'; ?>
+    <header class="Header">
+      <!-- Header navigation -->
+      <div class="Header-navigation">
+        <div class="u-gridContainer">
+          <?php include 'includes/navigation.php'; ?>
+        </div>
+      </div>
+      <!-- Header info -->
+      <div class="Header-info">
+        <div class="u-gridContainer">
+          <!-- Header logo -->
+          <div class="Header-logo">
+            <div class="Logo">
+                <a href="/" class="Logo-imageLink"><img class="Logo-image" src="<?php echo get_stylesheet_directory_uri(); ?>/ico/logo.svg" alt="ABT Installatietechniek"></a>
+                <a href="/" class="Logo-textLink"><h1 class="Logo-heading"><span class="Logo-headingTop Logo-headingTop--header">ABT</span><span class="Logo-headingBottom">Installatietechniek</span></h1></a>
+            </div>
+          </div>
+          <!-- Header contact -->
+          <div class="Header-contact">
+            <a class="Button Button--transparent u-textInverted u-noLine" href="tel:0102234786">
+              <svg class="Icon Icon--inline" viewBox="0 0 128 128">
+                <use xlink:href="#icon-phone"></use>
+              </svg>
+              <span>010 - 223 47 86</span>
+            </a>
+            <a class="Button Button--transparent u-textInverted u-noLine" href="tel:0622207355">
+              <svg class="Icon Icon--inline" viewBox="0 0 128 128">
+                <use xlink:href="#icon-mobile"></use>
+              </svg>
+              <span>06 - 222 07 355</span>
+            </a>
+            <a class="Button Button--transparent u-textInverted u-noLine" href="mailto:info@abtinstallaties.nl">
+              <svg class="Icon Icon--inline" viewBox="0 0 128 128">
+                <use xlink:href="#icon-envelope"></use>
+              </svg>
+              <span>info@abtinstallaties.nl</span>
+            </a>
+          </div>
+        </div>        
+      </div>
+      <!-- Header Slogan -->
+      <div class="Header-slogan">
+        <div class="u-gridContainer">
+          <h2>Betrouwbaarheid, kwaliteit en garantie</h2>
+          <h2>3 redenen om voor ABT te kiezen</h2>
+        </div>
+      </div>
+    </header>

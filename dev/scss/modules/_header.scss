@@ -6,8 +6,22 @@
 // *************************************
 
 .Header {
-  background-image: url("../img/img-header-bg.png");
+  background-image: url("../img/header-bg.png");
   background-size: cover;
+  border-bottom: 0.5rem solid $c-orange;
+  position: relative;
+  
+  &:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0,0,0,0.3);
+    z-index: $z-headerColorOverlay;
+    top: 0;
+    left: 0;
+  }
 }
 
 // -------------------------------------
@@ -38,37 +52,40 @@
 // Submodules
 // -------------------------------------
 
-// ----- Contact bar ----- //
-
-.Header-contact {
+.Header-navigation {
   @extend .u-gridRow;
-  padding-bottom : $l-whiteSpace;
-  padding-top    : $l-whiteSpace;
-  background: rgba($c-black,0.5);
+  position   : relative;
+  z-index    : $z-headerAboveColorOverlay;
+  background : $c-orange;
 }
 
-// ----- Contact bar ----- //
-
-.Header-logo {
+.Header-info {
   @extend .u-gridRow;
+  position       : relative;
+  z-index        : $z-headerAboveColorOverlay;
   padding-bottom : $l-whiteSpace;
   padding-top    : $l-whiteSpace;
-  background: rgba($c-black,0.25);
+
+  .Header-logo {
+    float    : left;
+    position : relative;
+    z-index  : $z-headerAboveColorOverlay;
+  }
+
+  .Header-contact {
+    float    : right;
+    position : relative;
+    z-index  : $z-headerAboveColorOverlay;
+  }
 }
 
-// ----- Nav bar ----- //
-
-.Header-nav {
+.Header-slogan {
   @extend .u-gridRow;
-  padding-bottom : $l-whiteSpace;
-  padding-top    : $l-whiteSpace;
-  background: $c-blue;
-}
-
-// ----- Carousel ----- //
-
-.Header-carousel {
-  @extend .u-gridRow;
+  position       : relative;
+  z-index        : $z-headerAboveColorOverlay;
+  text-align     : center;
+  text-transform : uppercase;
+  color          : $c-orange;
   padding-bottom : ($l-whiteSpace * 4);
   padding-top    : ($l-whiteSpace * 4);
 }

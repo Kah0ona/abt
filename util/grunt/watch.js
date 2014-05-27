@@ -38,7 +38,7 @@ module.exports = {
     ]
   },
   img: {
-    files: ['dev/img/**/*'],
+    files: ['dev/img/*'],
     tasks: [
       'newer:imagemin:all',
       'delete_sync:img',

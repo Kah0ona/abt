@@ -1,0 +1,79 @@
+// *************************************
+//
+// Footer
+// -> Default footer module
+//
+// *************************************
+
+.Footer {
+  @extend .u-gridRow;
+}
+
+// -------------------------------------
+// Module specific variables
+// -------------------------------------
+
+// Module-variableName
+
+// -------------------------------------
+// Modifiers
+// -------------------------------------
+
+.Footer--top {
+  background: $c-orange;
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+}
+
+.Footer--bottom {
+  background: darken($c-orange, 20%);
+}
+
+// -------------------------------------
+// States
+// -------------------------------------
+
+// .is-module-state
+
+// -------------------------------------
+// Context
+// -------------------------------------
+
+// .has-module
+
+// -------------------------------------
+// Submodules
+// -------------------------------------
+
+// ----- Footer text ----- //
+
+.Footer-heading,
+.Footer-text {
+  text-transform: uppercase;
+  color: $c-white;
+  fill: $c-white;
+}
+
+.Footer-heading {
+  margin-bottom: 0;
+}
+
+.Footer-text {
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+// ----- Footer top ----- //
+
+.Footer-logo,
+.Footer-adres,
+.Footer-contact,
+.Footer-sitemap {
+  @include span-columns(3);
+}
+
+.Footer-adres,
+.Footer-contact,
+.Footer-sitemap {
+  padding-left: 1rem;
+}

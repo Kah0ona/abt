@@ -53,10 +53,7 @@
 // ----- Navigation link ----- //
 
 .Navigation-link {
+  @extend .Button;
+  @extend .Button--brand;
   text-transform: uppercase;
-}
-
-.Navigation-link--invertedBold {
-  color: $c-white; 
-  font-weight: bold;
 }

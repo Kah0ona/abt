@@ -6,7 +6,7 @@
 // *************************************
 
 $.ajax({
-  url:"/wp-content/themes/slate_themename/ico/sprites.svg",
+  url:"/wp-content/themes/slate-0.1.2_abt/ico/sprites.svg",
   method: "GET",
   dataType: "html",
   success: function(data) {

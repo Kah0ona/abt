@@ -58,8 +58,21 @@
 
 @import "modules/navigation";
 
+@import "modules/footer";
+
 @import "modules/table";
 
 // -------------------------------------
 // Inbox
 // -------------------------------------
+
+// social buttons under the select
+
+.temp {
+  fill: white;
+  padding-top: 1rem;
+
+  a {
+    padding-right: 0.5rem;
+  }
+}
