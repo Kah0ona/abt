@@ -23,7 +23,6 @@ module.exports = function (grunt) {
 
   grunt.registerTask('init', 'Initialize the development environment, build and deploy initial themes.', [
     // Show warnings
-    'attention:ftppass_reminder',
     'attention:deletion_warning',
     // Ask for necessary variables and process them
     'prompt:init',
@@ -39,16 +38,15 @@ module.exports = function (grunt) {
     'copy:bower_libs',
     // Build themes and deploy them
     'build:parent',
-    'ftpush:deploy_parent',
+    'rsync:deploy_parent',
     'build:child:expanded',
-    'ftpush:init_deploy_child'
+    'rsync:init_deploy_child'
   ]);
 
   // ----- Grunt develop ----- //
 
   grunt.registerTask('develop', 'Build child theme, watch for changes and process them.', [
     'build:child:expanded',
-    'ftpush:deploy_child',
     'watch'
   ]);
 
@@ -57,7 +55,7 @@ module.exports = function (grunt) {
   grunt.registerTask('deploy', 'Deploy compressed child theme to live server.', [
     'clean:child',
     'build:child:compressed',
-    'ftpush:deploy_child'
+    'rsync:deploy_child'
   ]);
 
   // ----- Grunt build ----- //
@@ -85,7 +83,7 @@ module.exports = function (grunt) {
           // Copy Wp child css
           'copy:css_child',
           // Process images
-          'imagemin:all',
+         // 'imagemin:all',
           'delete_sync:img'
         );
       };
@@ -105,7 +103,7 @@ module.exports = function (grunt) {
           // Copy Wp child css
           'copy:css_child',
           // Process images
-          'newer:imagemin:all',
+          //'newer:imagemin:all',
           'delete_sync:img'
         );
       };
