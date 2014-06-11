@@ -15,11 +15,18 @@
 
 .Logo-headingTop--header {
   color: $c-orange;
+  transition: .3s;
+  &:hover{
+	  color: lighten($c-orange, 10%)
+  }
 }
 
 .Logo-headingTop--footer {
   color: $c-white;
 }
+
+
+
 
 // -------------------------------------
 // States
@@ -55,16 +62,16 @@
 
 .Logo-headingTop,
 .Logo-headingBottom {
-  display: block;
+  display: block; 
   line-height: 1;
 }
 
 .Logo-headingTop {
-  font-size: 4.375rem;
+  font-size: 4rem;
   text-align: center;
 }
 
 .Logo-headingBottom {
   color: $c-white;
-  font-size: 0.875rem;
+  font-size: 0.7rem;
 }

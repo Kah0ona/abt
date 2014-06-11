@@ -1,0 +1,29 @@
+.Home {
+}
+.Home-title {
+
+}
+
+.Home-business, .Home-non-business {
+	background-color: rgba(255,255,255,0.6);
+	background-image: url('../img/business.jpg');
+	background-size: cover;
+	margin: 20px 0px; 
+	width: 100%;
+	padding: 20px;
+
+}
+
+.Home-non-business {
+	background-image: url('../img/business.jpg');
+}
+
+.Home-content {
+	@include span-columns(8);
+	color: $c-black;
+	background-color: rgba(255,255,255,0.6);
+	padding: 10px;
+}
+.Home-side { 
+	@include span-columns(4);
+}

@@ -57,6 +57,33 @@
   }
 }
 
+.Button--inverted {
+	color: $c-white;
+	fill: $c-white;
+	background: $c-orange;
+	transition-duration: .3s;
+	&:hover{
+	  background: darken($c-orange, 10%);
+	}
+}
+
+.Button--huge {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 2em;
+	text-align: center;
+	height: 100%;
+	width: 100%;
+	display: block;
+
+}
+
+.Button-arrow {
+	font-size: 3em;
+}
+
 // -------------------------------------
 // States
 // -------------------------------------

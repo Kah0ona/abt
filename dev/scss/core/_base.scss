@@ -29,6 +29,8 @@ h1, h2, h3,
 h4, h5, h6 {
   font-family: $t-headerFontFamily;
   font-weight: bold;
+  color: $c-orange; 
+  text-transform: uppercase;
 }
 
 h1, %u-textH1 {
@@ -65,7 +67,7 @@ ul {
 // -------------------------------------
 
 a {
-  color: $c-blue;
+  color: $c-orange;
   text-decoration: none;
   &:hover,
   &:focus {

@@ -17,11 +17,11 @@
         <svg class="Icon Icon--inline" viewBox="0 0 128 128">
           <use xlink:href="#icon-phone"></use>
         </svg>
-        <span>010 - 223 47 86</span><br>
+        <span><b>Tijdens kantooruren</b><br/>010 - 223 47 86</span><br/><br/>
         <svg class="Icon Icon--inline" viewBox="0 0 128 128">
           <use xlink:href="#icon-mobile"></use>
         </svg>
-        <span>06 - 222 07 355</span><br>
+		<span><b>Buiten kantooruren</b><br/>06 - 222 07 355</span><br/><br/>
         <svg class="Icon Icon--inline" viewBox="0 0 128 128">
           <use xlink:href="#icon-envelope"></use>
         </svg>

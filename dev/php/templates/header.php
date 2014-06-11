@@ -11,7 +11,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <!-- Title -->
-    <title><?php wp_title( '|', true, 'right' ); ?><?php echo get_bloginfo( 'name' ); ?></title>
+    <title><?php wp_title( '|', true, 'right' ); ?></title>
 
     <!-- Mobile devices -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -59,14 +59,16 @@
               <svg class="Icon Icon--inline" viewBox="0 0 128 128">
                 <use xlink:href="#icon-phone"></use>
               </svg>
-              <span>010 - 223 47 86</span>
+              <span>010 - 223 47 86 (tijdens kantooruren)</span>
             </a>
-            <a class="Button Button--transparent u-textInverted u-noLine" href="tel:0622207355">
+<!--            
+			<a class="Button Button--transparent u-textInverted u-noLine" href="tel:0622207355">
               <svg class="Icon Icon--inline" viewBox="0 0 128 128">
                 <use xlink:href="#icon-mobile"></use>
               </svg>
               <span>06 - 222 07 355</span>
-            </a>
+			</a>
+-->
             <a class="Button Button--transparent u-textInverted u-noLine" href="mailto:info@abtinstallaties.nl">
               <svg class="Icon Icon--inline" viewBox="0 0 128 128">
                 <use xlink:href="#icon-envelope"></use>

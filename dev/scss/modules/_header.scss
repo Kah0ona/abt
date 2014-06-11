@@ -6,7 +6,7 @@
 // *************************************
 
 .Header {
-  background-image: url("../img/header-bg.png");
+  background-image: url("../img/header-auto.jpg");
   background-size: cover;
   border-bottom: 0.5rem solid $c-orange;
   position: relative;
@@ -23,34 +23,6 @@
     left: 0;
   }
 }
-
-// -------------------------------------
-// Module specific variables
-// -------------------------------------
-
-// -variable
-
-// -------------------------------------
-// Modifiers
-// -------------------------------------
-
-// .Module--modifierName
-
-// -------------------------------------
-// States
-// -------------------------------------
-
-// .is-module-state
-
-// -------------------------------------
-// Context
-// -------------------------------------
-
-// .has-module
-
-// -------------------------------------
-// Submodules
-// -------------------------------------
 
 .Header-navigation {
   @extend .u-gridRow;
@@ -85,7 +57,9 @@
   z-index        : $z-headerAboveColorOverlay;
   text-align     : center;
   text-transform : uppercase;
-  color          : $c-orange;
   padding-bottom : ($l-whiteSpace * 4);
   padding-top    : ($l-whiteSpace * 4);
+  h2 {
+	  color: $c-white;
+  }
 }
