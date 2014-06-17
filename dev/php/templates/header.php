@@ -82,7 +82,6 @@
       <div class="Header-slogan">
         <div class="u-gridContainer">
           <h2>Betrouwbaarheid, kwaliteit en garantie</h2>
-          <h2>3 redenen om voor ABT te kiezen</h2>
         </div>
       </div>
     </header>
