@@ -14,7 +14,7 @@
 // -------------------------------------
 
 .Logo-headingTop--header {
-  color: $c-orange;
+  color: #f4632e;
   transition: .3s;
   &:hover{
 	  color: lighten($c-orange, 10%)
@@ -37,7 +37,7 @@
 // -------------------------------------
 // Context
 // -------------------------------------
-
+ 
 // .has-module
 
 // -------------------------------------
@@ -45,7 +45,7 @@
 // -------------------------------------
 
 .Logo-image {
-  max-width: 5rem;
+  max-width: 5rem; 
 }
 
 .Logo-textLink {

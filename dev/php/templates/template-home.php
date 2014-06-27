@@ -43,6 +43,14 @@ Template Name: Home
 				</a>
 			</div>
 		</div>
+		<div class="Home-cert">
+			<h3>Certificering</h3>
+			Wij zijn gecertificeerd! <a href="/certificering">Lees meer</a> over onze certificering.
+			<a href="/certificering" class="Home-cert-image">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/certs.png" />
+			</a>
+		</div> 
+
 	</main>
 
 <?php get_footer(); ?>

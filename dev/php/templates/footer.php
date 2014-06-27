@@ -25,7 +25,7 @@
         <svg class="Icon Icon--inline" viewBox="0 0 128 128">
           <use xlink:href="#icon-envelope"></use>
         </svg>
-        <span>info@abtinstallaties.nl</span>
+        <span>info@abt-installaties.nl</span>
       </p>
     </div>
     <div class="Footer-sitemap">
@@ -66,6 +66,6 @@
   <?php include 'includes/comment-check.php'; ?>
 
 	<!-- Wordpress footer -->
-	<?php wp_footer(); ?>
+	<?php wp_footer(); ?> 
 	</body>
 </html>

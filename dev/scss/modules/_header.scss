@@ -17,10 +17,14 @@
     width: 100%;
     height: 100%;
     position: absolute;
-    background: rgba(0,0,0,0.3);
+    //background: rgba(0,0,0,0.3);
     z-index: $z-headerColorOverlay;
     top: 0;
     left: 0;
+  }
+
+  &:nth-of-type(3) {
+	  color:red;
   }
 }
 
@@ -29,6 +33,7 @@
   position   : relative;
   z-index    : $z-headerAboveColorOverlay;
   background : $c-orange;
+  box-shadow : 5px 5px 5px #222; 
 }
 
 .Header-info {
@@ -61,5 +66,8 @@
   padding-top    : ($l-whiteSpace * 4);
   h2 {
 	  color: $c-white;
+	  background-color: #f4632e;
+	  box-shadow : 2px 2px 5px #222; 
+	  //border-bottom: 4px solid #f9b724;
   }
 }

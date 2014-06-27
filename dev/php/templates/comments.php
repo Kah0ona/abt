@@ -1,7 +1,7 @@
 <div>
 <?php if ( post_password_required() ) : ?>
 	<p><?php _e( 'This post is password protected. Enter the password to view any comments.', '' ); ?></p>
-</div><!-- #comments -->
+</div><!-- #comments -->   
 <?php
 		/* Stop the rest of comments.php from being processed,
 		 * but don't kill the script entirely -- we still have

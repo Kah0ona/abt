@@ -1,0 +1,33 @@
+.gform_widget {
+	background-color: $c-orange;
+	padding: 20px;
+	border-radius: 6px;
+
+	.widgettitle {
+		color: $c-white;
+	}
+
+	input {
+		width: 100% !important;
+	}
+	input, textarea {
+		background-color: darken($c-orange, 10%);
+		border: 1px solid lighten($c-orange, 3%);
+		color: $c-white;
+	}
+	input[type="submit"] {
+		padding: 10px !important;
+	}
+	label {
+		color: $c-white !important;
+	}
+
+	.validation_error {
+		font-size: 1em !important;
+	}
+
+	.gfield_error {
+		background-color: $c-orange !important;
+		border: 0px solid black !important;
+	}
+}

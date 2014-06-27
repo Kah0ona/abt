@@ -26,16 +26,21 @@
     <!-- Include only one concatenated stylesheet here, minified -->
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/production.min.css">
 
+
+	<link rel="apple-touch-icon-precomposed" href="<?php echo get_stylesheet_directory_uri(); ?>/img/app-icon.png"/>  
+    <link rel="apple-touch-startup-image" href="<?php echo get_stylesheet_directory_uri(); ?>/img/app-icon.png" /> 
+
+
     <!-- Head scripts, avoid including scripts here -->
     <!-- Don't forget to compile and minify the used modernizr features, or to remove it when unused -->
     <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/standalone/modernizr.js"></script>
 
     <!-- Wordpress head function -->
     <?php wp_head(); ?>
-
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
   </head>
   <body <?php body_class(); ?> >
-
+	 <?php include_once("ico/sprites.svg"); ?>
     <header class="Header">
       <!-- Header navigation -->
       <div class="Header-navigation">
@@ -69,11 +74,11 @@
               <span>06 - 222 07 355</span>
 			</a>
 -->
-            <a class="Button Button--transparent u-textInverted u-noLine" href="mailto:info@abtinstallaties.nl">
+            <a class="Button Button--transparent u-textInverted u-noLine" href="mailto:info@abt-installaties.nl">
               <svg class="Icon Icon--inline" viewBox="0 0 128 128">
                 <use xlink:href="#icon-envelope"></use>
               </svg>
-              <span>info@abtinstallaties.nl</span>
+              <span>info@abt-installaties.nl</span>
             </a>
           </div>
         </div>        
