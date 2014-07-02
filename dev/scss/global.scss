@@ -68,6 +68,7 @@
 @import "modules/contactwidget";
 
 @import "modules/table";
+@import "modules/slider";
 
 // -------------------------------------
 // Inbox
@@ -91,4 +92,29 @@
 
 .wp-caption-text {
 	font-weight: bold;
+}
+
+
+.ngg-album-compactbox:after, .ngg-album-compactbox:before {
+	border-bottom: 0px solid black !important;
+}
+
+.ngg-album-compact > p { 
+	display: none !important; 
+}
+
+.ngg-gallery-thumbnail-box .ngg-gallery-thumbnail {
+	//width: 180px !important;
+	//overflow: hidden !important;
+}
+
+.ngg-gallery-thumbnail-box .ngg-gallery-thumbnail img {
+	height: 168px !important;
+}
+.submenu-klimaat {
+	pointer: cursor;
+//	color: $c-orange;
+}
+.submenu-klimaat ul {
+	display: none;
 }

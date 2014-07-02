@@ -32,15 +32,10 @@
       <h6 class="Footer-heading">Sitemap</h6>
       <?php include 'includes/sitemap.php'; ?>
       <div class="temp">
-        <a target="_blank" href="#">
-          <svg class="Icon Icon--alone" viewBox="0 0 128 128"><use xlink:href="#icon-facebook2"></use></svg>
-        </a>
-        <a target="_blank" href="#">
-          <svg class="Icon Icon--alone" viewBox="0 0 128 128"><use xlink:href="#icon-linkedin"></use></svg>
-        </a>
-        <a href="#">
-          <svg class="Icon Icon--alone" viewBox="0 0 128 128"><use xlink:href="#icon-qrcode"></use></svg>
-        </a>
+        <a href="/app">
+		  <svg class="Icon Icon--alone" viewBox="0 0 128 128"><use xlink:href="#icon-qrcode"></use></svg>
+		 </a> 
+		 <a href="/app" style="text-transform: uppercase; color: white">Bekijk de app</a>
       </div>
     </div>
   </div>
@@ -48,7 +43,7 @@
 <footer class="Footer Footer--bottom">
   <div class="u-gridContainer u-textCenter">
     <!-- Copyright info -->
-    <p class="Footer-text">&copy; ABT Installatietechniek <?php echo date("Y"); ?> - Algemene voorwaarden - Built by Lokaalgevonden</p>
+    <p class="Footer-text">&copy; ABT Installatietechniek <?php echo date("Y"); ?> - <a href="/algemene-voorwaarden">Algemene Voorwaarden</a> - Website & SEO door <a href="http://www.lokaalgevonden.nl" target="_blank">Lokaalgevonden</a></p>
   </div>
 </footer>   
 	

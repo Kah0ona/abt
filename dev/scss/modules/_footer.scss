@@ -27,6 +27,9 @@
 
 .Footer--bottom {
   background: darken($c-orange, 20%);
+  a {
+	  color: #222;
+  }
 }
 
 // -------------------------------------

@@ -6,11 +6,13 @@
 // *************************************
 
 .Header {
-  background-image: url("../img/header-auto.jpg");
+//  background-image: url("../img/header-auto.jpg");
   background-size: cover;
   border-bottom: 0.5rem solid $c-orange;
+  //border-bottom: 0.5rem solid #f89f27;
   position: relative;
-  
+
+
   &:after {
     content: "";
     display: block;
@@ -47,6 +49,8 @@
     float    : left;
     position : relative;
     z-index  : $z-headerAboveColorOverlay;
+	padding-right: 20px;
+	background-color: rgba(255,255,255,0.5);
   }
 
   .Header-contact {
@@ -63,7 +67,7 @@
   text-align     : center;
   text-transform : uppercase;
   padding-bottom : ($l-whiteSpace * 4);
-  padding-top    : ($l-whiteSpace * 4);
+  padding-top    : ($l-whiteSpace * 9);
   h2 {
 	  color: $c-white;
 	  background-color: #f4632e;
