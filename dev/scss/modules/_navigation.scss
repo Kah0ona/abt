@@ -24,7 +24,8 @@
 // -------------------------------------
 
 .Navigation-link.is-active {
-  text-decoration: underline;
+	border-bottom: 3px solid white;
+	padding: 10px 0;
 }
 
 // -------------------------------------
@@ -57,3 +58,43 @@
   @extend .Button--brand;
   text-transform: uppercase;
 }
+
+.Logo {
+	padding-top: 10px;
+}
+.Logo, .Logo-imageLink {
+	float: left;
+	display: block;
+	height: 130px;
+}
+
+.Logo-image {
+	max-width: 80px;
+}
+
+.Header {
+	.Logo-heading {
+		margin-top: 30px;
+	}
+	.Logo-headingBottom {
+		color: #686868;
+	}
+}
+
+.Header-contact {
+	top: 20px;
+}
+.Button.Button--transparent {
+	display: block;
+	text-align: right;
+	&:hover {
+		opacity: 0.8;
+	}
+}
+
+.Header-navigation {
+	box-shadow: 0px 10px 15px -5px rgba(0, 0, 0, 0.5);
+}
+
+
+

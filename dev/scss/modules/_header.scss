@@ -8,7 +8,6 @@
 .Header {
 //  background-image: url("../img/header-auto.jpg");
   background-size: cover;
-  border-bottom: 0.5rem solid $c-orange;
   //border-bottom: 0.5rem solid #f89f27;
   position: relative;
 
@@ -49,7 +48,6 @@
     float    : left;
     position : relative;
     z-index  : $z-headerAboveColorOverlay;
-	padding-right: 20px;
 	background-color: rgba(255,255,255,0.5);
   }
 
@@ -67,11 +65,22 @@
   text-align     : center;
   text-transform : uppercase;
   padding-bottom : ($l-whiteSpace * 4);
-  padding-top    : ($l-whiteSpace * 9);
+  padding-top    : ($l-whiteSpace * 26);
   h2 {
-	  color: $c-white;
-	  background-color: #f4632e;
-	  box-shadow : 2px 2px 5px #222; 
-	  //border-bottom: 4px solid #f9b724;
+	  color: $c-orangedarker;
+	  background-color: rgba(225,225,225,0.85);
+	  font-size: 22px;
+	  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
   }
+}
+
+
+
+
+.bx-wrapper {
+  border-bottom: 0.5rem solid $c-orange;
+}
+
+.bx-viewport {
+	height: 285px !important;
 }

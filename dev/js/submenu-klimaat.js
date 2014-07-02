@@ -1,6 +1,6 @@
 jQuery(document).ready(function($){
 	$('.submenu-klimaat').click(function(){
-		$(this).children().toggle();
+		$(this).children('ul').toggle();
 	});
 	//$('.submenu-klimaat').children().toggle();
 });

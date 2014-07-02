@@ -4,6 +4,8 @@
 	margin-left: 10px;
 }
 
+
+
 .Content .Calamiteit {
 
 	background-color: $c-orange;
@@ -21,3 +23,72 @@
 }
 
 
+.submenu-klimaat span {
+	color: $c-orange;
+	&:hover {
+		cursor: pointer;
+		text-decoration: underline;
+	}
+}
+
+.Sidebar-box {
+	background-color: $c-orange;
+	height: auto;
+	width: auto;
+	padding: 10px 20px 15px;
+	border-radius: 10px;
+}
+
+.Sidebar-box.contact {
+	a {
+		color: $c-orange;
+		padding: 5px 10px;
+		display: block;
+		background-color: white;
+		text-align: center;
+		border-radius: 5px;
+		text-decoration: none;
+		&:hover {
+			box-shadow: 4px 4px #ccc inset;
+			text-decoration: none;
+		}
+	}
+	p {
+		color: white;
+	}
+}
+
+.Sidebar-box.klimaat {
+	background-color: white;
+	border: 5px solid $c-orange;
+	margin-top: 20px;
+	ul {
+		background-color: #fafafa;
+		border-radius: 10px;
+		margin-top: 10px;
+		padding: 10px;
+	}
+	.klimaat-ul-inner {
+		margin-top: 0px;
+		background-color: #F0F0F0;
+		padding: 5px;
+		margin-right: 10px;
+	}
+	
+	li {
+		list-style-type: circle;
+		list-style-position:inside;
+		margin-left: 10px;
+	}
+}
+
+
+.ngg-navigation {
+	padding-bottom: 8px !important;
+}
+
+.ngg-gallery-thumbnail-box {
+	.ngg-gallery-thumbnail img {
+		height: 135px !important;
+	}
+}

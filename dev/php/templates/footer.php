@@ -3,8 +3,9 @@
   <div class="u-gridContainer">
     <div class="Footer-logo">
       <div class="Logo">
-          <a href="/" class="Logo-imageLink"><img class="Logo-image" src="<?php echo get_stylesheet_directory_uri(); ?>/ico/logo.svg" alt="ABT Installatietechniek"></a>
-          <a href="/" class="Logo-textLink"><h1 class="Logo-heading"><span class="Logo-headingTop Logo-headingTop--footer">ABT</span><span class="Logo-headingBottom">Installatietechniek</span></h1></a>
+		  <a href="/home/">
+			  <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo-2.png">
+		  </a>
       </div>
     </div>
     <div class="Footer-adres">

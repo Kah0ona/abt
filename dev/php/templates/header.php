@@ -45,61 +45,68 @@
 
 
       <!-- Header navigation -->
+      			  <!-- Header logo -->
+
+		  <div class="Header-logo u-gridContainer">
+			<div class="Logo">
+				<a href="/home/">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo-1.png">
+				</a>
+			</div>
+			
+
+			  <!-- Header info -->
+			  <div class="Header-info">
+
+				  <!-- Header contact -->
+				  <div class="Header-contact">
+					<a class="Button Button--transparent u-textInverted u-noLine" href="tel:0102234786">
+					  <svg class="Icon Icon--inline" viewBox="0 0 128 128">
+						<use xlink:href="#icon-phone"></use>
+					  </svg>
+					  <span>010 - 223 47 86 (tijdens kantooruren)</span>
+					</a>
+		<!--              
+					<a class="Button Button--transparent u-textInverted u-noLine" href="tel:0622207355">
+					  <svg class="Icon Icon--inline" viewBox="0 0 128 128">
+						<use xlink:href="#icon-mobile"></use>
+					  </svg>
+					  <span>06 - 222 07 355</span>
+					</a>
+		-->
+					<a class="Button Button--transparent u-textInverted u-noLine" href="mailto:info@abt-installaties.nl">
+					  <svg class="Icon Icon--inline" viewBox="0 0 128 128">
+						<use xlink:href="#icon-envelope"></use>
+					  </svg>
+					  <span>info@abt-installaties.nl</span>
+					</a>
+				  </div><!-- header-contact -->
+			  </div><!-- header-info -->
+		  </div><!-- header-logo -->
+
+
       <div class="Header-navigation">
         <div class="u-gridContainer">
           <?php include 'includes/navigation.php'; ?>
         </div>
 	  </div>
 
+	  <div class="u-gridContainer">
+		  <div class="Slider bxslider">
+			<img class="Slider-slide" src="<?php echo get_stylesheet_directory_uri();?>/img/windmills.jpg" />
+			<img class="Slider-slide" src="<?php echo get_stylesheet_directory_uri();?>/img/header-auto.jpg" />
+			<img class="Slider-slide" src="<?php echo get_stylesheet_directory_uri();?>/img/meeting.jpg" />
+			<img class="Slider-slide" src="<?php echo get_stylesheet_directory_uri();?>/img/building.jpg" />
+			<img class="Slider-slide" src="<?php echo get_stylesheet_directory_uri();?>/img/regeltechniek.jpg" />
+			<img class="Slider-slide" src="<?php echo get_stylesheet_directory_uri();?>/img/badkamer.jpg" />
 
-	  <div class="Slider bxslider">
-		<img class="Slider-slide" src="<?php echo get_stylesheet_directory_uri();?>/img/windmills.jpg" />
-		<img class="Slider-slide" src="<?php echo get_stylesheet_directory_uri();?>/img/header-auto.jpg" />
-		<img class="Slider-slide" src="<?php echo get_stylesheet_directory_uri();?>/img/meeting.jpg" />
-		<img class="Slider-slide" src="<?php echo get_stylesheet_directory_uri();?>/img/building.jpg" />
-		<img class="Slider-slide" src="<?php echo get_stylesheet_directory_uri();?>/img/regeltechniek.jpg" />
-
-		  <!-- Header info -->
-		  <div class="Header-info">
-			<div class="u-gridContainer">
-			  <!-- Header logo -->
-			  <div class="Header-logo">
-				<div class="Logo">
-					<a href="/" class="Logo-imageLink"><img class="Logo-image" src="<?php echo get_stylesheet_directory_uri(); ?>/ico/logo.svg" alt="ABT Installatietechniek"></a>
-					<a href="/" class="Logo-textLink"><h1 class="Logo-heading"><span class="Logo-headingTop Logo-headingTop--header">ABT</span><span class="Logo-headingBottom">Installatietechniek</span></h1></a>
+		  <!-- Header Slogan -->
+			  <div class="Header-slogan">
+				<div class="u-gridContainer">
+				  <h2 >Betrouwbaarheid &nbsp;&nbsp;<span style="color: #f69157">-</span>
+					&nbsp;&nbsp; Kwaliteit &nbsp;&nbsp;<span style="color: #f69157">-</span>&nbsp;&nbsp; Garantie</h2>
 				</div>
 			  </div>
-			  <!-- Header contact -->
-			  <div class="Header-contact">
-				<a class="Button Button--transparent u-textInverted u-noLine" href="tel:0102234786">
-				  <svg class="Icon Icon--inline" viewBox="0 0 128 128">
-					<use xlink:href="#icon-phone"></use>
-				  </svg>
-				  <span>010 - 223 47 86 (tijdens kantooruren)</span>
-				</a>
-	<!--              
-				<a class="Button Button--transparent u-textInverted u-noLine" href="tel:0622207355">
-				  <svg class="Icon Icon--inline" viewBox="0 0 128 128">
-					<use xlink:href="#icon-mobile"></use>
-				  </svg>
-				  <span>06 - 222 07 355</span>
-				</a>
-	-->
-				<a class="Button Button--transparent u-textInverted u-noLine" href="mailto:info@abt-installaties.nl">
-				  <svg class="Icon Icon--inline" viewBox="0 0 128 128">
-					<use xlink:href="#icon-envelope"></use>
-				  </svg>
-				  <span>info@abt-installaties.nl</span>
-				</a>
-			  </div>
-			</div>        
 		  </div>
-		  <!-- Header Slogan -->
-		  <div class="Header-slogan">
-			<div class="u-gridContainer">
-			  <h2 >Betrouwbaarheid &nbsp;&nbsp;<span style="color: #f69157">-</span>
-				&nbsp;&nbsp; Kwaliteit &nbsp;&nbsp;<span style="color: #f69157">-</span>&nbsp;&nbsp; Garantie</h2>
-			</div>
-		  </div>
-	 </div>
+	  </div>
     </header>
