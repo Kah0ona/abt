@@ -16,7 +16,9 @@ Template Name: App pagina
 						<h2><?php the_title(); ?></h2>
 						<div>
 							<?php the_content(); ?>
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/qr.jpg" />
+							<div class="qr-img">
+								<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/abt-qr-code.jpg" />
+							</div>
 							<?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
 						</div>
 					</article>
@@ -27,4 +29,3 @@ Template Name: App pagina
 	</div>
 
 <?php get_footer(); ?>
-
