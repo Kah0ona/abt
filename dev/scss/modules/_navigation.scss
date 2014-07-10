@@ -98,4 +98,9 @@
 }
 
 
-
+// THIS IS FOR THE STICKY NAV
+.fixed {
+	position: fixed;
+	top: 0px;
+	z-index: 9999999;
+}

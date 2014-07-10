@@ -5,7 +5,6 @@ Template Name: Home
 ?>
 
 <?php get_header(); ?>
-
 	<main class="Home u-gridContainer">
 		<div class="Home-business u-gridRow">
 			<h1 class="Home-title">Wie zijn wij</h1>
