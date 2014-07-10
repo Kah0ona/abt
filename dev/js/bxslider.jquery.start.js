@@ -14,8 +14,11 @@ jQuery(document).ready(function($){
 	  infiniteLoop: true,
 	  hideControlOnEnd: true, 
 	  touchEnabled:false,
-	  pager: false
+	  pager: false,
+	  onSliderLoad: function(){
+        $(".Slider .Slider-slide").css("visibility", "visible");
+      }
 	});
 });
-
+ 
 
