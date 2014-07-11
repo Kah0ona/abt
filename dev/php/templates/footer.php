@@ -3,7 +3,7 @@
   <div class="u-gridContainer">
     <div class="Footer-adres">
       <h6 class="Footer-heading">Adres</h6>
-      <p class="Footer-text">Postbus 23525<br>3001 KM Rotterdam<br>Nederland</p>
+      <p class="Footer-text">Postbus 23525<br>3001 KM Rotterdam</p>
     </div>
     <div class="Footer-contact">
       <h6 class="Footer-heading">Contact</h6>

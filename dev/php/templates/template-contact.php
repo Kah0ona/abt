@@ -18,7 +18,6 @@ Template Name: Contactpage
 							<div class="adress-info">
 								<p>Postbus 23525</p>
 								<p>3001 KM Rotterdam</p>
-								<p>Zuid Holland</p>
 								<p><b>Tijdens kantooruren:</b><br/>
 								Tel: 010 - 223 47 86</p>
 								<p><b>Buiten kantooruren (storingsnummer):</b><br/>

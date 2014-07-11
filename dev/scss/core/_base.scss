@@ -23,6 +23,7 @@ body {
 
 p {
   font-size: rem($t-fontSize);
+  color: #484848;
 }
 
 h1, h2, h3,
@@ -41,7 +42,7 @@ h1, %u-textH1 {
 }
 
 h2, %u-textH2 {
-  font-size: rem(30px);
+  font-size: 25px;
 }
 
 h3, %u-textH3 {

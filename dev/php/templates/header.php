@@ -66,14 +66,14 @@
 					  </svg>
 					  <span>010 - 223 47 86</span>
 					</a>
-		<!--              
+		             
 					<a class="Button Button--transparent u-textInverted u-noLine" href="tel:0622207355">
 					  <svg class="Icon Icon--inline" viewBox="0 0 128 128">
 						<use xlink:href="#icon-mobile"></use>
 					  </svg>
 					  <span>06 - 222 07 355</span>
 					</a>
-		-->
+		
 					<a class="Button Button--transparent u-textInverted u-noLine" href="mailto:info@abt-installaties.nl">
 					  <svg class="Icon Icon--inline" viewBox="0 0 128 128">
 						<use xlink:href="#icon-envelope"></use>

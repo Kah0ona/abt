@@ -44,12 +44,18 @@ Template Name: Home
 		</div>
 		<div class="Home-cert">
 			<h3>Certificering</h3>
-			Wij zijn gecertificeerd! <a href="/certificering">Lees meer</a> over onze certificering.
-			<a href="/certificering" class="Home-cert-image">
+			<p>Wij zijn gecertificeerd! <a href="/certificering">Lees meer</a> over onze certificering.</p>
+			
+			<a href="http://www.uneto-vni.nl/homepage-zakelijk" class="Home-cert-image" target="_blank">
 				<img class="imgy-1" src="<?php echo get_stylesheet_directory_uri(); ?>/img/uneto-vni.png" />
+			</a>
+			
+			<a href="http://www.scios.nl/" class="Home-cert-image" target="_blank">
 				<img class="imgy-2" src="<?php echo get_stylesheet_directory_uri(); ?>/img/scios.JPG" />
+			</a>
+			
+			<a href="http://www.vca.nl/home/homepage.aspx" class="Home-cert-image" target="_blank">				
 				<img class="imgy-3" src="<?php echo get_stylesheet_directory_uri(); ?>/img/vca.png" />
-
 			</a>
 		</div> 
 
