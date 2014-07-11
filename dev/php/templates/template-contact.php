@@ -14,7 +14,7 @@ Template Name: Contactpage
 				<div class="Content-text">
 
 					<div class="u-gridRow">					
-						<div class="adress u-gridCol4">
+						<div class="adress u-gridCol4 Coll-resp">
 							<div class="adress-info">
 								<p>Postbus 23525</p>
 								<p>3001 KM Rotterdam</p>
@@ -26,7 +26,7 @@ Template Name: Contactpage
 							</div>
 	
 						</div>					
-						<div class="adress-map u-gridCol8">
+						<div class="adress-map u-gridCol8 Coll-resp">
 							<div id="map_canvas"></div>
 						</div>
 

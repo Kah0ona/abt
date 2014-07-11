@@ -64,7 +64,7 @@
 					  <svg class="Icon Icon--inline" viewBox="0 0 128 128">
 						<use xlink:href="#icon-phone"></use>
 					  </svg>
-					  <span>010 - 223 47 86 (tijdens kantooruren)</span>
+					  <span>010 - 223 47 86</span>
 					</a>
 		<!--              
 					<a class="Button Button--transparent u-textInverted u-noLine" href="tel:0622207355">
@@ -98,7 +98,6 @@
 			<img class="Slider-slide" src="<?php echo get_stylesheet_directory_uri();?>/img/meeting.jpg" />
 			<img class="Slider-slide" src="<?php echo get_stylesheet_directory_uri();?>/img/building.jpg" />
 			<img class="Slider-slide" src="<?php echo get_stylesheet_directory_uri();?>/img/regeltechniek.jpg" />
-			<img class="Slider-slide" src="<?php echo get_stylesheet_directory_uri();?>/img/badkamer.jpg" />
 
 		  <!-- Header Slogan -->
 			  <div class="Header-slogan">

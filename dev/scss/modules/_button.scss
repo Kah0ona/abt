@@ -46,6 +46,13 @@
   }
 }
 
+.Header {
+	.Button--transparent {
+	  font-size: 18px;
+	}
+}
+
+
 .Button--transparent {
   color: $c-black;
   fill: $c-black;

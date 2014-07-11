@@ -46,7 +46,10 @@ Template Name: Home
 			<h3>Certificering</h3>
 			Wij zijn gecertificeerd! <a href="/certificering">Lees meer</a> over onze certificering.
 			<a href="/certificering" class="Home-cert-image">
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/certs.png" />
+				<img class="imgy-1" src="<?php echo get_stylesheet_directory_uri(); ?>/img/uneto-vni.png" />
+				<img class="imgy-2" src="<?php echo get_stylesheet_directory_uri(); ?>/img/scios.JPG" />
+				<img class="imgy-3" src="<?php echo get_stylesheet_directory_uri(); ?>/img/vca.png" />
+
 			</a>
 		</div> 
 

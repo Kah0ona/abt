@@ -1,13 +1,6 @@
 	
 <footer class="Footer Footer--top">
   <div class="u-gridContainer">
-    <div class="Footer-logo">
-      <div class="Logo">
-		  <a href="/home/">
-			  <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo-2.png">
-		  </a>
-      </div>
-    </div>
     <div class="Footer-adres">
       <h6 class="Footer-heading">Adres</h6>
       <p class="Footer-text">Postbus 23525<br>3001 KM Rotterdam<br>Nederland</p>

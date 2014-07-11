@@ -20,9 +20,10 @@
 // -------------------------------------
 
 .Footer--top {
-  background: $c-orange;
+  background: $c-footergrey;
   padding-top: 1rem;
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
+  border-top: 10px solid darken($c-orange, 10%);
 }
 
 .Footer--bottom {
@@ -62,8 +63,15 @@
 }
 
 .Footer-text {
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: bold;
+  
+}
+
+.Footer h6 {
+	font-size: 22px;
+	line-height: 35px;
+	margin: 20px 0 0 0;
 }
 
 // ----- Footer top ----- //
@@ -72,7 +80,7 @@
 .Footer-adres,
 .Footer-contact,
 .Footer-sitemap {
-  @include span-columns(3);
+  @include span-columns(4);
 }
 
 .Footer-adres,
@@ -88,5 +96,41 @@
 		border-radius: 5px;
 		padding: 0px 5px;
 		width: 200px;
+	}
+}
+
+
+
+.Footer--top {
+	margin-top: 35px;
+}
+
+
+@media all and (max-width: 730px) {
+	.Footer-logo,
+	.Footer-adres,
+	.Footer-contact,
+	.Footer-sitemap {
+	  @include span-columns(12);
+	  text-align: center;
+	  border-bottom: 1px solid #ccc;
+	  padding-bottom: 20px;
+	}
+	
+}
+
+@media all and (max-width: 500px) {
+	.Footer--bottom {
+		.Footer-text {
+			font-size: 12px;
+		}
+	}
+}
+
+@media all and (max-width: 400px) {
+	.Footer--bottom {
+		.Footer-text {
+			font-size: 10px;
+		}
 	}
 }

@@ -88,9 +88,17 @@
 .Button.Button--transparent {
 	display: block;
 	text-align: right;
+	color: #686868;
+
 	&:hover {
 		opacity: 0.8;
 	}
+}
+
+.Header {
+	.Icon--inline {
+		fill: #686868;
+	}	
 }
 
 .Header-navigation {
