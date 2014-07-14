@@ -7,14 +7,12 @@ Template Name: Home
 <?php get_header(); ?>
 	<main class="Home u-gridContainer">
 		<div class="Home-business u-gridRow">
-			<h1 class="Home-title">Wie zijn wij</h1>
+			<!-- <h1 class="Home-title">Wie zijn wij</h1> -->
 			<div class="Home-content">
-				<p>ABT installatietechniek is een installatiebedrijf dat gespecialiseerd is in verwarming,
-		warm water, luchtverwarming, en ventilatie (met nadruk op Service & Onderhoud).
-				</p>
-				<p>ABT installatietechniek is een jong en dynamisch bedrijf dat staat voor kwaliteit tegen een 
-		concurrerende prijs. ABT werkt uitsluitend met gediplomeerde en ervaren technici.
-				</p>
+
+<p>ABT Installatietechniek is een vakkundige specialist op het gebied van verwarmingsinstallatie, luchtbehandeling, koeling, regeltechniek en loodgieterwerkzaamheden. Wij zorgen voor de aanleg en onderhoud van installaties in zowel de utiliteitsbranche als de particuliere sector en voeren tevens werkzaamheden uit in opdracht van woningbouwverenigingen.</p>
+<p>Als u op zoek bent naar een gedegen vertrouwenspartner die gevoel heeft voor klantgericht en servicegericht zakendoen, ongeacht de grootte van de klus, dan bent u bij ABT Installatietechniek aan het goede adres . Als totaalinstallateur bieden wij u tevens de mogelijkheid om al uw installatiewerkzaamheden door één partner te laten regelen.</p>
+
 			</div>
 			<div class="Home-side">
 				<a href="/zakelijk" class="Button Button--inverted Button--huge">
@@ -26,12 +24,11 @@ Template Name: Home
 			</div>
 		</div>
 		<div class="Home-non-business u-gridRow">
-			<h1>Wat doen wij</h1>
+			<!-- <h1>Wat doen wij</h1> -->
 			<div class="Home-content">
-				<p>
-					ABT installatietechniek streeft ernaar om kwalitatief installatiewerk te verzorgen
-		voor zowel de particuliere als de zakelijke markt. Hieraan ligt ten grondslag een servicegerichte werkwijze dat gepaard gaat met professioneel en persoonlijk advies.
-				</p>
+
+<p>ABT installatietechniek streeft ernaar om kwalitatief installatiewerk te verzorgen
+voor zowel de particuliere als de zakelijke markt. Hieraan ligt ten grondslag een servicegerichte werkwijze dat gepaard gaat met professioneel en persoonlijk advies.</p>
 			</div>
 			<div class="Home-side">
 				<a href="/particulier" class="Button Button--inverted Button--huge">

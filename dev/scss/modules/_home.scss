@@ -22,8 +22,9 @@
 .Home-content {
 	@include span-columns(8);
 	color: $c-black;
-	background-color: rgba(255,255,255,0.6);
+	background-color: rgba(255,255,255,0.8);
 	padding: 10px;
+	min-height: 220px;
 }
 .Home-side { 
 	@include span-columns(4);

@@ -50,7 +50,7 @@
 		  <div class="Header-logo u-gridContainer">
 			<div class="Logo">
 				<a href="/home/">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo-1.png">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo-new.jpg">
 				</a>
 			</div>
 			
@@ -98,7 +98,8 @@
 			<img class="Slider-slide" src="<?php echo get_stylesheet_directory_uri();?>/img/meeting.jpg" />
 			<img class="Slider-slide" src="<?php echo get_stylesheet_directory_uri();?>/img/building.jpg" />
 			<img class="Slider-slide" src="<?php echo get_stylesheet_directory_uri();?>/img/regeltechniek.jpg" />
-
+			<img class="Slider-slide" src="<?php echo get_stylesheet_directory_uri();?>/img/badkamer.jpg" />
+			
 		  <!-- Header Slogan -->
 			  <div class="Header-slogan">
 				<div class="u-gridContainer">

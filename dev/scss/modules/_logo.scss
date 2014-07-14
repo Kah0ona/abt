@@ -7,7 +7,12 @@
 
 .Logo {
   display: inline-block;
-  margin-left: -20px;
+  position: relative;
+  z-index: 99999;
+  
+  img {
+	  max-height: 94%;
+  }
 }
 
 // -------------------------------------
