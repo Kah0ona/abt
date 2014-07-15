@@ -112,3 +112,55 @@
 	top: 0px;
 	z-index: 9999999;
 }
+
+
+
+
+
+
+
+
+//======================================================
+//          @media queries - Responsiveness
+//======================================================
+
+
+@media all and (max-width: 800px) {
+	.Navigation {
+		position: relative;
+		z-index: 3000;
+	}
+
+	ul.Navigation-list {
+		position: relative;
+		display: block;
+		width: 100%;
+		margin-top: 55px;
+			
+		.Navigation-listItem {
+			display: block;
+			&:first-of-type {
+				margin-left: 15px;
+			}
+			&:last-of-type {
+				margin-right: 15px;
+			}
+			a {
+				display: block;
+				width: 100%;
+				padding: 20px 0;
+			}
+		}
+	}
+	
+	.Navigation-link.is-active {
+		border: 0 solid;
+	}
+
+}
+
+.Navigation {
+	#js-navCollapseTarget {
+		
+	}
+}

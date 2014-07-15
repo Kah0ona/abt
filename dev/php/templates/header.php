@@ -87,9 +87,19 @@
 
       <div class="Header-navigation">
         <div class="u-gridContainer">
+	        <div class="Nav-toggle">
+				<a class="Navigation-menuToggle" id="js-navCollapse">
+					<svg class="Icon Icon--inline" viewBox="0 0 128 128">
+						<use xlink:href="#icon-menu2"></use>
+					</svg>
+				</a>
+			</div>
+
           <?php include 'includes/navigation.php'; ?>
         </div>
 	  </div>
+
+	
 
 	  <div class="u-gridContainer">
 		  <div class="Slider bxslider">
