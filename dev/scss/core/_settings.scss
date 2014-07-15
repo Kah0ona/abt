@@ -15,18 +15,18 @@
 // -------------------------------------
 // Variables
 // -------------------------------------
-
+$max-width		: 80rem;
 // ----- Colors ----- //
 
 $c-black 		: #1B1C17;
 $c-blue  		: #0070AF;
 $c-white 		: #EFEFEF;
 $c-white 		: white; // temporary
-$c-orange		: lighten(#f4752b,9%);
-$c-orangedarker : #f4752b;
+$c-orange 		: #F07A0C;
 $c-orangefav	: #F07A0C;
-
+$c-orangedarker : #DC580B;
 $c-footergrey	: #515352;
+/* $c-orange		: lighten(#f4752b,9%); */
 
 //$c-orange: #e15229;
 //$c-orange: #f14331;

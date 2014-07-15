@@ -23,11 +23,11 @@
   background: $c-footergrey;
   padding-top: 1rem;
   padding-bottom: 2rem;
-  border-top: 10px solid darken($c-orange, 10%);
+  border-top: 10px solid $c-orangedarker;
 }
 
 .Footer--bottom {
-  background: darken($c-orange, 20%);
+  background: $c-orangedarker;
   a {
 	  color: #222;
   }

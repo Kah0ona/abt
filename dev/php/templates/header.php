@@ -42,18 +42,19 @@
   <body <?php body_class(); ?> >
 	 <?php include_once("ico/sprites.svg"); ?>
 	<header class="Header">
-
+		<div class="top-nav-bg">
 
       <!-- Header navigation -->
       			  <!-- Header logo -->
 
 		  <div class="Header-logo u-gridContainer">
+
 			<div class="Logo">
 				<a href="/home/">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo-new.jpg">
+				    <a href="/" class="Logo-imageLink"><img class="Logo-image" src="<?php echo get_stylesheet_directory_uri(); ?>/ico/logo.svg" alt="ABT Installatietechniek"></a>
+				    <a href="/" class="Logo-textLink"><h1 class="Logo-heading"><span class="Logo-headingTop Logo-headingTop--header">ABT</span><span class="Logo-headingBottom">Installatietechniek</span></h1></a>
 				</a>
 			</div>
-			
 
 			  <!-- Header info -->
 			  <div class="Header-info">
@@ -96,19 +97,43 @@
 			</div>
 
           <?php include 'includes/navigation.php'; ?>
+          
+          
+<div class="Mob-contact-ico">
+	<a class="Button Button--transparent u-textInverted u-noLine telsvg" href="tel:0102234786">
+		<svg class="Icon Icon--inline" viewBox="0 0 128 128">
+			<use xlink:href="#icon-phone"></use>
+		</svg>
+	</a>
+
+	<a class="Button Button--transparent u-textInverted u-noLine tel2svg" href="tel:0622207355">
+		<svg class="Icon Icon--inline" viewBox="0 0 128 128">
+			<use xlink:href="#icon-mobile"></use>
+		</svg>
+	</a>
+
+	<a class="Button Button--transparent u-textInverted u-noLine mailsvg" href="mailto:info@abt-installaties.nl">
+		<svg class="Icon Icon--inline" viewBox="0 0 128 128">
+			<use xlink:href="#icon-envelope"></use>
+		</svg>
+	</a>
+</div><!-- header-contact -->
         </div>
 	  </div>
 
-	
+		</div>
+	</header>	
 
+	<header class="Header">
+	
 	  <div class="u-gridContainer">
 		  <div class="Slider bxslider">
-			<img class="Slider-slide" src="<?php echo get_stylesheet_directory_uri();?>/img/windmills.jpg" />
-			<img class="Slider-slide" src="<?php echo get_stylesheet_directory_uri();?>/img/header-auto.jpg" />
-			<img class="Slider-slide" src="<?php echo get_stylesheet_directory_uri();?>/img/meeting.jpg" />
-			<img class="Slider-slide" src="<?php echo get_stylesheet_directory_uri();?>/img/building.jpg" />
-			<img class="Slider-slide" src="<?php echo get_stylesheet_directory_uri();?>/img/regeltechniek.jpg" />
-			<img class="Slider-slide" src="<?php echo get_stylesheet_directory_uri();?>/img/badkamer.jpg" />
+			<img class="Slider-slide one" src="<?php echo get_stylesheet_directory_uri();?>/img/windmills.jpg" />
+			<img class="Slider-slide two" src="<?php echo get_stylesheet_directory_uri();?>/img/header-auto.jpg" />
+			<img class="Slider-slide three" src="<?php echo get_stylesheet_directory_uri();?>/img/meeting.jpg" />
+			<img class="Slider-slide four" src="<?php echo get_stylesheet_directory_uri();?>/img/building.jpg" />
+			<img class="Slider-slide five" src="<?php echo get_stylesheet_directory_uri();?>/img/regeltechniek.jpg" />
+			<img class="Slider-slide six" src="<?php echo get_stylesheet_directory_uri();?>/img/badkamer.jpg" />
 			
 		  <!-- Header Slogan -->
 			  <div class="Header-slogan">

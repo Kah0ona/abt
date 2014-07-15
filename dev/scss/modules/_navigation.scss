@@ -7,7 +7,13 @@
 
 .Navigation {
   text-align: center;
+
 }
+
+.top-nav-bg {
+  background-color: #515352;	
+}
+
 
 // -------------------------------------
 // Module specific variables
@@ -75,16 +81,18 @@
 
 .Header {
 	.Logo-heading {
-		margin-top: 30px;
+		margin-top: 35px;
 	}
 	.Logo-headingBottom {
-		color: #686868;
+		color: white;
+		opacity: 0.8;
 	}
 }
 
 .Header-contact {
 	top: 20px;
 }
+
 .Button.Button--transparent {
 	display: block;
 	text-align: right;
@@ -114,8 +122,34 @@
 }
 
 
+.Mob-contact-ico {
+	display: none;
+}
 
-
+.Header {
+	.Header-contact {
+		a {
+			background-color: transparent;
+			color: white;
+			&:hover {
+				color: $c-orange;
+				opacity: 1;
+				
+				-webkit-transition:all 0.2s ease;
+				-moz-transition:all 0.2s ease;
+				-o-transition:all 0.2s ease;
+								
+				svg {
+					fill: $c-orange;
+				}
+			}
+		}
+		
+		svg {
+			fill: white;
+		}
+	}
+}
 
 
 
@@ -156,7 +190,74 @@
 	.Navigation-link.is-active {
 		border: 0 solid;
 	}
+	
+	.u-gridCol4, .u-gridCol8 {
+		@include span-columns(12);
+	}
+	
+	.bx-wrapper {
+		display: none;
+	}
+	.Calamiteit a {
+		color: white;
+		text-decoration: underline;
+	}
+}
 
+
+@media all and (max-width: 500px) {
+	.Logo {
+		display: block;
+		float: none;
+		margin: 0 auto;
+		width: 235px;
+		padding-right: 20px;
+
+
+
+	}
+	
+	.Header-contact {
+		display: none;
+	}
+	.Mob-contact-ico {
+		display: block;
+		z-index: 5000;
+		
+		a { 
+			border: 2px solid white;
+			position: absolute;
+			display: block;
+			width: 35px;
+			height: 35px;
+			border-radius: 7px;
+			top: 10px;
+			background-color: transparent;
+			.Icon--inline {
+				fill: white;
+			}
+		}
+		.telsvg {
+			left: 10px;				
+			.Icon--inline {
+				margin: 4px;
+			}
+		}
+		
+		.tel2svg {
+			left: 55px;				
+			.Icon--inline {
+				margin: 5px;
+			}
+		}
+
+		.mailsvg {
+			left: 100px;				
+			.Icon--inline {
+				margin: 6px;
+			}
+		}
+	}
 }
 
 .Navigation {

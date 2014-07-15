@@ -37,6 +37,7 @@
 	width: auto;
 	padding: 10px 20px 15px;
 	border-radius: 10px;
+	margin-top: 30px;
 }
 
 .Sidebar-box.contact {
@@ -109,10 +110,15 @@
 .ngg-gallery-thumbnail-box {
 	.ngg-gallery-thumbnail img {
 		height: 135px !important;
-		width: 220px !important;
+		width: 240px !important;
 		border-color: $c-orangefav;
 		&:hover {
 			background-color: $c-orangefav;
+		}
+		
+		@media all and (max-width: 400px) {
+			width: 280px !important;
+			height: auto !important;
 		}
 	}
 }
@@ -269,5 +275,19 @@ select.menu {
 @media all and (max-width: 900px) {
 	.Coll-resp {
 		@include span-columns(12);
+	}
+}
+
+@media all and (max-width: 700px) {
+	.Home-business, .Home-non-business {
+		.Home-content {
+			@include span-columns(12);
+		}
+		
+		.Home-side {
+			
+			width: 100%;
+			margin: 20px auto 0;
+		}
 	}
 }
