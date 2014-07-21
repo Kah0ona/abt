@@ -117,10 +117,14 @@
 	.Footer-sitemap {
 	  @include span-columns(12);
 	  text-align: center;
-	  border-bottom: 1px solid #ccc;
 	  padding-bottom: 20px;
 	}
-	
+
+	.Footer-logo,
+	.Footer-adres,
+	.Footer-contact {	
+	  border-bottom: 1px solid #ccc;
+	 }
 }
 
 @media all and (max-width: 500px) {

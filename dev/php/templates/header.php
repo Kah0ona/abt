@@ -128,11 +128,11 @@
 	
 	  <div class="u-gridContainer">
 		  <div class="Slider bxslider">
-			<img class="Slider-slide one" src="<?php echo get_stylesheet_directory_uri();?>/img/windmills.jpg" />
+			<img class="Slider-slide five" src="<?php echo get_stylesheet_directory_uri();?>/img/regeltechniek.jpg" />
 			<img class="Slider-slide two" src="<?php echo get_stylesheet_directory_uri();?>/img/header-auto.jpg" />
+			<img class="Slider-slide one" src="<?php echo get_stylesheet_directory_uri();?>/img/windmills.jpg" />
 			<img class="Slider-slide three" src="<?php echo get_stylesheet_directory_uri();?>/img/meeting.jpg" />
 			<img class="Slider-slide four" src="<?php echo get_stylesheet_directory_uri();?>/img/building.jpg" />
-			<img class="Slider-slide five" src="<?php echo get_stylesheet_directory_uri();?>/img/regeltechniek.jpg" />
 			<img class="Slider-slide six" src="<?php echo get_stylesheet_directory_uri();?>/img/badkamer.jpg" />
 			
 		  <!-- Header Slogan -->
