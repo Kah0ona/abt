@@ -10,8 +10,8 @@ Template Name: Home
 			<!-- <h1 class="Home-title">Wie zijn wij</h1> -->
 			<div class="Home-content">
 
-<p>ABT Installatietechniek is een vakkundige specialist op het gebied van verwarmingsinstallatie, luchtbehandeling, koeling, regeltechniek en loodgieterwerkzaamheden. Wij zorgen voor de aanleg en onderhoud van installaties in zowel de utiliteitsbranche als de particuliere sector en voeren tevens werkzaamheden uit in opdracht van woningbouwverenigingen.</p>
-<p>Als u op zoek bent naar een gedegen vertrouwenspartner die gevoel heeft voor klantgericht en servicegericht zakendoen, ongeacht de grootte van de klus, dan bent u bij ABT Installatietechniek aan het goede adres . Als totaalinstallateur bieden wij u tevens de mogelijkheid om al uw installatiewerkzaamheden door één partner te laten regelen.</p>
+<p>ABT Installatietechniek is een vakkundige specialist op het gebied van verwarmingsinstallatie, luchtbehandeling, koeling, regeltechniek en loodgieterwerkzaamheden. Wij zorgen voor de aanleg en onderhoud van installaties in zowel de <b>utiliteitsbranche</b> als de <b>particuliere sector</b> en voeren tevens werkzaamheden uit in opdracht van <b>woningbouwverenigingen</b>.</p>
+<p>Als u op zoek bent naar een gedegen vertrouwenspartner die gevoel heeft voor klantgericht en servicegericht zakendoen, ongeacht de grootte van de klus, dan bent u bij ABT Installatietechniek aan het goede adres . Als <b>totaalinstallateur</b> bieden wij u tevens de mogelijkheid om al uw installatiewerkzaamheden door één partner te laten regelen.</p>
 
 			</div>
 			<div class="Home-side">
