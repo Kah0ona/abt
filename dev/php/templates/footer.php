@@ -4,6 +4,11 @@
     <div class="Footer-adres">
       <h6 class="Footer-heading">Adres</h6>
       <p class="Footer-text">Postbus 23525<br>3001 KM Rotterdam</p>
+ 	  <div class="">
+		<a href="/" class="">
+			<img class="" src="http://abt-installaties.nl/wp-content/themes/slate-0.1.2_abt/img/logo-abt.png" alt="ABT Installatietechniek"></a>
+				
+	  </div>
     </div>
     <div class="Footer-contact">
       <h6 class="Footer-heading">Contact</h6>
