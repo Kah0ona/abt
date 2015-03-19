@@ -25,7 +25,14 @@
 	background-color: rgba(255,255,255,0.8);
 	padding: 10px;
 	min-height: 220px;
+	webkit-border-radius: 20px;
+	-webkit-border-top-right-radius: 0;
+	-moz-border-radius: 20px;
+	-moz-border-radius-topright: 0;
+	border-radius: 20px;
+	border-top-right-radius: 0;
 }
+
 .Home-side { 
 	@include span-columns(4);
 }

@@ -15,6 +15,16 @@
   }
 }
 
+.Logo-footer {
+  display: inline-block;
+  position: relative;
+  z-index: 99999;
+  
+  img {
+    max-height: 94%;
+  }
+}
+
 // -------------------------------------
 // Modifiers
 // -------------------------------------
@@ -50,8 +60,10 @@
 // Submodules
 // -------------------------------------
 
-.Logo-image {
-  max-width: 5rem; 
+.Logo-image-top {
+ max-width: 5rem; 
+ width: 42px;
+ //max-width: 97%; 
 }
 
 .Logo-textLink {
