@@ -33,6 +33,20 @@
   }
 }
 
+
+.button-contact-footer{
+	color: white;
+		&:hover {
+		fill: $c-orangefav;
+		color: $c-orangefav;
+		text-decoration: none;
+
+		-webkit-transition:all 0.2s ease;
+		-moz-transition:all 0.2s ease;
+		-o-transition:all 0.2s ease;
+
+	}
+}
 // -------------------------------------
 // States
 // -------------------------------------

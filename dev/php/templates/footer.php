@@ -4,11 +4,15 @@
     <div class="Footer-adres">
       <h6 class="Footer-heading">Adres</h6>
       <p class="Footer-text">Postbus 23525<br>3001 KM Rotterdam</p>
- 	  <div class="">
-		<a href="/" class="">
-			<img class="" src="http://abt-installaties.nl/wp-content/themes/slate-0.1.2_abt/img/logo-abt.png" alt="ABT Installatietechniek"></a>
-				
-	  </div>
+
+      <div class="Logo-footer">
+        <a href="/home/">
+            <a href="/" class="Logo-imageLink"><img class="Logo-image-top" src="<?php echo get_stylesheet_directory_uri(); ?>/ico/logo.svg" alt="ABT Installatietechniek"></a>
+            <a href="/" class="Logo-textLink"><h1 class="Logo-heading"><span class="Logo-headingTop Logo-headingTop--header">ABT</span><span class="Logo-headingBottom">Installatietechniek</span></h1></a>
+        </a>
+      </div>
+
+
     </div>
     <div class="Footer-contact">
       <h6 class="Footer-heading">Contact</h6>
@@ -21,10 +25,12 @@
           <use xlink:href="#icon-mobile"></use>
         </svg>
 		<span><b>Buiten kantooruren</b><br/>06 - 222 07 355</span><br/><br/>
+        <a class="button-contact-footer" href="mailto:info@abt-installaties.nl">
         <svg class="Icon Icon--inline" viewBox="0 0 128 128">
           <use xlink:href="#icon-envelope"></use>
         </svg>
         <span>info@abt-installaties.nl</span>
+        </a>
       </p>
     </div>
     <div class="Footer-sitemap">

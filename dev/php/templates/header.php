@@ -51,7 +51,7 @@
 
 			<div class="Logo">
 				<a href="/home/">
-				    <a href="/" class="Logo-imageLink"><img class="Logo-image" src="<?php echo get_stylesheet_directory_uri(); ?>/ico/logo.svg" alt="ABT Installatietechniek"></a>
+				    <a href="/" class="Logo-imageLink"><img class="Logo-image-top" src="<?php echo get_stylesheet_directory_uri(); ?>/ico/logo.svg" alt="ABT Installatietechniek"></a>
 				    <a href="/" class="Logo-textLink"><h1 class="Logo-heading"><span class="Logo-headingTop Logo-headingTop--header">ABT</span><span class="Logo-headingBottom">Installatietechniek</span></h1></a>
 				</a>
 			</div>
@@ -138,8 +138,8 @@
 		  <!-- Header Slogan -->
 			  <div class="Header-slogan">
 				<div class="u-gridContainer">
-				  <h2 >Betrouwbaarheid &nbsp;&nbsp;<span style="color: #f69157">-</span>
-					&nbsp;&nbsp; Kwaliteit &nbsp;&nbsp;<span style="color: #f69157">-</span>&nbsp;&nbsp; Garantie</h2>
+				  <h2 >Betrouwbaarheid &nbsp;&nbsp;<span style="color: #ffffff">-</span>
+					&nbsp;&nbsp; Kwaliteit &nbsp;&nbsp;<span style="color: #ffffff">-</span>&nbsp;&nbsp; Garantie</h2>
 				</div>
 			  </div>
 		  </div>
