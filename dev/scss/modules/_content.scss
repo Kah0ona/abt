@@ -269,7 +269,36 @@ select.menu {
 	}
 }
 
-
+.imgy-4 {
+		max-height: 95px;
+		max-width: 	150px;
+		margin-bottom: 12px;
+		margin-top: 14px;
+		float: left;
+		
+		&:hover {
+			max-height: 107px;
+			padding-bottom: 10px;
+			border-bottom: 2px solid $c-orangefav;
+			margin-bottom: 0;
+		}
+}
+.imgy-5 {
+		max-height: 250px;
+		max-width: 	250px;
+		margin-bottom: 12px;
+		margin-top: 14px;
+		margin-left: 25px;
+		float: left;
+		
+		&:hover {
+			max-height: 250px;
+			max-width: 250px;
+			padding-bottom: 10px;
+			border-bottom: 2px solid $c-orangefav;
+			margin-bottom: 0;
+		}
+}
 
 
 @media all and (max-width: 900px) {

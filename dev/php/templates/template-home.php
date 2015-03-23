@@ -54,6 +54,24 @@ voor zowel de particuliere als de zakelijke markt. Hieraan ligt ten grondslag ee
 			<a href="http://www.vca.nl/home/homepage.aspx" class="Home-cert-image" target="_blank">				
 				<img class="imgy-3" src="<?php echo get_stylesheet_directory_uri(); ?>/img/vca.png" />
 			</a>
+		</div>
+		<div class="U-gridRow">
+			<a href="http://www.kvinl.nl/" class="Home-cert-image" target="_blank">				
+				<img class="imgy-4" src="<?php echo get_stylesheet_directory_uri(); ?>/img/kvin.png" />
+			</a>
+
+			<a href="http://www.qbisnl.nl/" class="Home-cert-image" target="_blank">				
+				<img class="imgy-4" src="<?php echo get_stylesheet_directory_uri(); ?>/img/qbis.jpg" />
+			</a>
+
+			<a href="http://www.ok-cv.nl/" class="Home-cert-image" target="_blank">				
+				<img class="imgy-4" src="<?php echo get_stylesheet_directory_uri(); ?>/img/okcv.png" />
+			</a>
+
+			<a href="http://www.kvinl.nl/" class="Home-cert-image" target="_blank">				
+				<img class="imgy-4" src="<?php echo get_stylesheet_directory_uri(); ?>/img/sei.png" />
+			</a>
+
 		</div> 
 
 	</main>
