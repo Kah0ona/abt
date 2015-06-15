@@ -127,6 +127,7 @@
 // THIS IS FOR THE STICKY NAV
 .fixed {
 	position: fixed;
+	width: auto;
 	top: 0px;
 	z-index: 9999999;
 }
@@ -178,7 +179,7 @@
 	ul.Navigation-list {
 		position: relative;
 		display: block;
-		width: 100%;
+		width: 100% !important;
 		margin-top: 55px;
 			
 		.Navigation-listItem {
@@ -220,7 +221,6 @@
 		display: block;
 		float: none;
 		margin: 0 auto;
-		width: 185px;
 		padding-right: 25px;
 
 

@@ -5,16 +5,16 @@
       <h6 class="Footer-heading">Adres</h6>
       <p class="Footer-text">Postbus 23525<br>3001 KM Rotterdam</p>
 
-      <div class="Logo-footer">
+      <div class="Logo-footer"> 
         <a href="/home/">
             <a href="/" class="Logo-imageLink"><img class="Logo-image-top" src="<?php echo get_stylesheet_directory_uri(); ?>/ico/logo.svg" alt="ABT Installatietechniek"></a>
             <a href="/" class="Logo-textLink"><h1 class="Logo-heading"><span class="Logo-headingTop Logo-headingTop--header">ABT</span><span class="Logo-headingBottom">Installatietechniek</span></h1></a>
         </a>
       </div>
 
-
+ 
     </div>
-    <div class="Footer-contact">
+    <div class="Footer-contact"> 
       <h6 class="Footer-heading">Contact</h6>
       <p class="Footer-text">
         <svg class="Icon Icon--inline" viewBox="0 0 128 128">

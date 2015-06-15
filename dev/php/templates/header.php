@@ -49,7 +49,7 @@
 
 		  <div class="Header-logo u-gridContainer">
 
-			<div class="Logo">
+			<div class="Logo Logo-header">
 				<a href="/home/">
 				    <a href="/" class="Logo-imageLink"><img class="Logo-image-top" src="<?php echo get_stylesheet_directory_uri(); ?>/ico/logo.svg" alt="ABT Installatietechniek"></a>
 				    <a href="/" class="Logo-textLink"><h1 class="Logo-heading"><span class="Logo-headingTop Logo-headingTop--header">ABT</span><span class="Logo-headingBottom">Installatietechniek</span></h1></a>
